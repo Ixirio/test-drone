@@ -6,4 +6,4 @@ steps:
   - name: print-message
     image: alpine:latest
     commands:
-      - echo "Hello World"
+      - cat ./image.txt
